@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/jalaxi/Desktop/Project Android/Wikiapp/app/src/main/res/layout/activity_main.xml" value="0.278125" />
+        <entry key="..\:/Users/jalaxi/Desktop/Project Android/Wikiapp/app/src/main/res/layout/activity_main2.xml" value="0.33" />
+        <entry key="..\:/Users/jalaxi/Desktop/Project Android/Wikiapp/app/src/main/res/layout/dialog_edit_image.xml" value="0.15" />
+        <entry key="..\:/Users/jalaxi/Desktop/Project Android/Wikiapp/app/src/main/res/layout/dialog_edit_item.xml" value="0.278125" />
+        <entry key="..\:/Users/jalaxi/Desktop/Project Android/Wikiapp/app/src/main/res/layout/fragment_explor.xml" value="0.278125" />
+        <entry key="..\:/Users/jalaxi/Desktop/Project Android/Wikiapp/app/src/main/res/layout/fragment_profile.xml" value="0.278125" />
+        <entry key="..\:/Users/jalaxi/Desktop/Project Android/Wikiapp/app/src/main/res/layout/fragment_trend.xml" value="0.278125" />
+        <entry key="..\:/Users/jalaxi/Desktop/Project Android/Wikiapp/app/src/main/res/layout/item_explor.xml" value="0.278125" />
+        <entry key="..\:/Users/jalaxi/Desktop/Project Android/Wikiapp/app/src/main/res/layout/item_trend.xml" value="0.278125" />
+        <entry key="..\:/Users/jalaxi/Desktop/Project Android/Wikiapp/app/src/main/res/menu/bottomnavigation_menu.xml" value="0.22" />
+        <entry key="..\:/Users/jalaxi/Desktop/Project Android/Wikiapp/app/src/main/res/menu/drawer_menu.xml" value="0.2" />
+        <entry key="..\:/Users/jalaxi/Desktop/Wikiapp/app/src/main/res/drawable/ic_video_maker.xml" value="0.169" />
+        <entry key="..\:/Users/jalaxi/Desktop/Wikiapp/app/src/main/res/drawable/ic_writer.xml" value="0.169" />
+        <entry key="..\:/Users/jalaxi/Desktop/Wikiapp/app/src/main/res/drawable/shape_bg_drawer.xml" value="0.169" />
+        <entry key="..\:/Users/jalaxi/Desktop/Wikiapp/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/jalaxi/Desktop/Wikiapp/app/src/main/res/layout/fragment_explor.xml" value="0.278125" />
+        <entry key="..\:/Users/jalaxi/Desktop/Wikiapp/app/src/main/res/layout/fragment_profile.xml" value="0.278125" />
+        <entry key="..\:/Users/jalaxi/Desktop/Wikiapp/app/src/main/res/layout/fragment_trend.xml" value="0.33733417561591916" />
+        <entry key="..\:/Users/jalaxi/Desktop/Wikiapp/app/src/main/res/menu/bottomnavigation_menu.xml" value="0.27708333333333335" />
+        <entry key="..\:/Users/jalaxi/Desktop/Wikiapp/app/src/main/res/menu/drawer_menu.xml" value="0.27708333333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

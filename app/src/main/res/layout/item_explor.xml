@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="16dp"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_explor_main"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_translatore" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/txt_explor_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="translate"
+                android:textColor="?attr/colorOnPrimary"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/txt_explor_subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="translate"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="76dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/gray_lite" />
+
+            <TextView
+                android:id="@+id/txt_explor_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:ellipsize="end"
+                android:lineSpacingExtra="6dp"
+                android:maxLines="8"
+                android:text="he primary mirror of JWST, the Optical Telescope Element, consists of 18 hexagonal mirror segments made of gold-plated beryllium, which combine to create a 6.5 m (21 ft)-diameter mirror – considerably larger than Hubble's 2.4 m (7.9 ft) mirror. Unlike the Hubble telescope, which observes in the near ultraviolet, visible, and near infrared (0.1–1.0 μm) spectra, JWST will observe in a lower frequency range, from long-wavelength visible light (red) through mid-infrared (0.6–28.3 μm). This will enable it to observe high-redshift objects that are too old and too distant for Hubble. The telescope must be kept very cold to observe in the infrared without interference, so it will be deployed in space near the Sun–Earth L2 Lagrange point, about 1.5 million kilometers (930,000 mi) from Earth (0.01 au – 3.9 times the average distance to the Moon)."
+                android:textColor="?attr/colorOnPrimary"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbarMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapseMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/Theme.MaterialComponents"
+            app:contentScrim="@color/blue"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <ImageView
+                android:id="@+id/img_Main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/img_assassins"
+                app:layout_collapseMode="parallax" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbarMain2"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                app:layout_collapseMode="pin" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/txt_detail_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="johan Madden"
+                android:textColor="?attr/colorOnPrimary"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/txt_detail_subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="johan Madden"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="76dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:background="?attr/colorOnPrimary" />
+
+            <TextView
+                android:id="@+id/txt_detail_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:lineSpacingExtra="6dp"
+                android:text="The James Webb Space Telescope (JWST) is a space telescope developed by NASA with contributions from the European Space Agency (ESA), and the Canadian Space Agency (CSA). The telescope is named after James E. Webb, who was the administrator of NASA from 1961 to 1968 and played an integral role in the Apollo program. It is intended to succeed the Hubble Space Telescope as NASA's flagship mission in astrophysics. JWST was launched on 25 December 2021 on Ariane flight VA256. It is designed to provide improved infrared resolution and sensitivity over Hubble, and will enable a broad range of investigations across the fields of astronomy and cosmology, including observations of some of the most distant events and objects in the Universe such as the formation of the first galaxies, and allowing detailed atmospheric characterization of potentially habitable exoplanets.\n"
+                android:textColor="?attr/colorOnPrimary"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_detail_openLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_account"
+        app:backgroundTint="?attr/colorPrimary"
+        app:layout_anchor="@id/appbarMain"
+        app:layout_anchorGravity="bottom|end"
+        app:maxImageSize="60dp"
+        app:tint="@color/white"
+        app:useCompatPadding="true" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
